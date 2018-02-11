@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lr制作登录界面</title>
+</head>
+
+<body>
+	<script>
+	var myNode = document.getElementById('myId');
+		myNode.id
+		myNode.tagName
+		myNode.clssName
+		<input type='text' id='input'/>
+			var myNode = document.getElementById('input')
+		    myNode.getAttribute('type')
+		    myNode.setAttribute('type','password')
+		    myNode.removeAttribute('type')
+	</script>
+<div align="center">
+<h1>登录</h1>
+<p>
+<label for="user">用户名或邮件：</label>
+    <input type="text" name="user" placeholder="用户名或邮件" required>
+</p>
+<p>
+<label for="password">密码：</label>
+    <input type="password" name="password" placeholder="密码" required>
+</p>
+<button onclick="displayDate()">登录</button>
+</div>
+</body>
+</html>
